@@ -38,9 +38,15 @@ and could be refined further by adding multiple variables and improving dataset 
 
 
 REFERENCES :
+
+
 1.Murray CJ, Lopez AD. Alternative projections of mortality and disability by cause 1990-2020: Global Burden of Disease Study. Lancet. 1997 May 24;349(9064):1498-504. DOI: 10.1016/S0140-6736(96)07492-2. PMID: 9167458. 
+
+
 2.Gupta R, Joshi P, Mohan V, Reddy KS, Yusuf S. Epidemiology and causation of coronary heart disease and stroke in India. Heart. 2008 Jan;94(1):16-26. 
 DOI: 10.1136/hrt.2007.132951. PMID: 18083949.
+
+
 3.Gupta, R., Misra, A., Vikram, N. K., Kondal, D., Gupta, S. S., Agrawal, A., & Pandey, R. M. (2009). Younger age of escalation of cardiovascular risk factors in Asian Indian subjects. BMC cardiovascular disorders, 9, 28. https://doi.org/10.1186/1471-2261-9-28
 
 
