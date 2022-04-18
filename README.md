@@ -27,12 +27,26 @@ RESEARCH METHODOLOGY:
 
 Data Pre-processing:
 In this step, Researchers will transform the dataset suitably and make it appropriate for model development. They need to implement this step prior to model creation or even the univariate or bivariate analysis. The dataset processing includes the following steps:
+
+
 Null value treatment – In this step, they check through the dataset if they are able to find any null values. When found, they deal with each variable individually and treat them by imputing Mean or Median in the case of numerical variables and Mode or category creation for Categorical variables.
+
+
 Outlier treatment – There are two steps to conduct this step. In the first approach, Researchers check the statistics for the numerical variables. If the difference between the maximum value and 75% quartile value is extremely high, then they say that outliers exist. In the second approach, they plot a box plot for the variable. If there exist any points beyond the whiskers, it's evident that outliers exist.
+
+
 Data type formatting – If variables in the dataset are incorrect or are in a different format, Researchers need to convert them to an appropriate format. Say, the sex variable was written as F and M for female and Male respectively, then they have to transform the variable by imputing 0 for female and 1 for male or vice versa.
+
+
 Dataset Splitting - In this step, the dataset is split into 70%-30% split, where 70% is for training and the rest 30% is for validating the results. If Researchers were to train the model on the entire data, it will learn all the values and thus lead to overfitting.Model creation and Evaluation:Now that data is transformed and ready for analysis, they go ahead with model creation. Multiple models will be created and one of the efficient ones will be finalized. Recursive feature elimination or RFE will also be used to understand the variables suitable for analysis.
+
+
 Evaluation metrics:F1 score is the harmonic mean of precision and recall. Researchers have used the F1 score as an evaluation metric. More focus is given to precision and recall as the study is based on predicting heart disease. Even the tiniest possibility of heart vulnerability shouldn’t be missed and therefore F1 score will provide the best analysis of the model.
+
+
 CONCLUSION :
+
+
 Based on the anatomical factors, researchers were able to predict the target variable, i.e. whether an individual is vulnerable to a heart-related disease with an outstanding F1 score of 83%. Healthcare is one of the largest domains and therefore for someone with a chronic disease condition, medical treatment and assessments would cost a fortune. The study, therefore, comes in as a savior by giving the individual an equation that he can use to self-assess and avoid undergoing any further expensive assessments. Since there exists no cure for chronic disease, anyone with even the slightest vulnerability should be treated and given utmost attention. This is the reason the study has emphasized the F1 score metric and not the Accuracy. Analysis and prediction of heart disease through logistic regression was successful 
 and could be refined further by adding multiple variables and improving dataset size.
 
